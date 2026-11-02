@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e8a23cc2cd4dbb8b25f37eecf4a701, type: 3}
+  m_Name: Whip
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponPartData2D
+  weaponName: Whip
+  weaponId: whip
+  pickupColor: {r: 1, g: 0.85, b: 0.1, a: 1}
+  attackShape: 2
+  damage: 1
+  attackInterval: 0.9
+  range: 2.3
+  angle: 100
+  width: 0.5
+  manaOnHit: 5
+  manaOnKill: 15
+  innerRange: 1.8
+  tipLength: 0
+  tipDamage: 2
+  knockbackSpeed: 0
+  knockbackDuration: 0
+  stunDuration: 0

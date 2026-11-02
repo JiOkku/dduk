@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c6438c844554fbca5bb86069d8d7ada, type: 3}
+  m_Name: Stage03_Water
+  m_EditorClassIdentifier: Assembly-CSharp::DungeonStageData2D
+  stageId: stage_03
+  stageName: Stage 3 - Water
+  element: 1
+  waves:
+  - enemies:
+    - prefab: {fileID: 997617234, guid: 00e8a23cc2cd4dbb8b25f37eecf4a604, type: 3}
+      enemyData: {fileID: 11400000, guid: f290c325132e43288ce07157ae59f905, type: 2}
+      count: 3
+  - enemies:
+    - prefab: {fileID: 997617234, guid: 00e8a23cc2cd4dbb8b25f37eecf4a604, type: 3}
+      enemyData: {fileID: 11400000, guid: f290c325132e43288ce07157ae59f905, type: 2}
+      count: 5
+  - enemies:
+    - prefab: {fileID: 997617234, guid: 00e8a23cc2cd4dbb8b25f37eecf4a604, type: 3}
+      enemyData: {fileID: 11400000, guid: f290c325132e43288ce07157ae59f905, type: 2}
+      count: 7
+  healthMultiplier: 1.4
+  damageMultiplier: 1.2
+  speedMultiplier: 1
+  clearGold: 20
+  environmentColor: {r: 0.48, g: 0.6, b: 0.75, a: 1}
+  boss: {fileID: 11400000, guid: dd4c813b5ef3455794f9c07a5d402565, type: 2}
+  bossHealthMultiplier: 1
+  bossDamageMultiplier: 1
+  bossIntroDuration: 1.5

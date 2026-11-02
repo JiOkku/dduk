@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e8a23cc2cd4dbb8b25f37eecf4a701, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponPartData2D
+  weaponName: Spear
+  weaponId: spear
+  pickupColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  attackShape: 1
+  damage: 1
+  attackInterval: 0.6
+  range: 2.5
+  angle: 90
+  width: 0.5
+  manaOnHit: 8
+  manaOnKill: 15
+  innerRange: 0
+  tipLength: 0.7
+  tipDamage: 2
+  knockbackSpeed: 0
+  knockbackDuration: 0
+  stunDuration: 0

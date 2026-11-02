@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 130a62b7ac084538a443af20eaad02e2, type: 3}
+  m_Name: PermanentGrowth
+  m_EditorClassIdentifier: Assembly-CSharp::PermanentGrowthData2D
+  magicCatalog: {fileID: 11400000, guid: 00e8a23cc2cd4dbb8b25f37eecf4cc20, type: 2}
+  nodes:
+  - nodeId: node_fire_1
+    magicId: fire_bolt
+    displayName: Fire Bolt
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 0
+    prerequisites: []
+  - nodeId: node_fire_2
+    magicId: explosive_fireball
+    displayName: Flame Spray
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 5
+    prerequisites:
+    - node_fire_1
+  - nodeId: node_fire_3
+    magicId: flame_blast
+    displayName: Greater Fireball
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 10
+    prerequisites:
+    - node_fire_2
+  - nodeId: node_water_1
+    magicId: water_bolt
+    displayName: Water Bolt
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 0
+    prerequisites: []
+  - nodeId: node_water_2
+    magicId: piercing_stream
+    displayName: Piercing Stream
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 5
+    prerequisites:
+    - node_water_1
+  - nodeId: node_water_3
+    magicId: water_wave
+    displayName: Water Wave
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 10
+    prerequisites:
+    - node_water_2
+  - nodeId: node_grass_1
+    magicId: thorn_bolt
+    displayName: Thorn Bolt
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 0
+    prerequisites: []
+  - nodeId: node_grass_2
+    magicId: thorn_burst
+    displayName: Thorn Burst
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 5
+    prerequisites:
+    - node_grass_1
+  - nodeId: node_grass_3
+    magicId: thorn_nova
+    displayName: Thorn Nova
+    description: Unlock this scroll for the single equipped magic slot.
+    cost: 10
+    prerequisites:
+    - node_grass_2
+  upgrades:
+  - kind: 0
+    displayName: Max Health
+    bonusPerLevel: 1
+    costs: 020000000400000006000000080000000a000000
+  - kind: 1
+    displayName: Max Mana
+    bonusPerLevel: 10
+    costs: 020000000400000006000000080000000a000000
+  - kind: 2
+    displayName: Melee Damage
+    bonusPerLevel: 1
+    costs: 050000000a0000000f000000
